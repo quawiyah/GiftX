@@ -652,6 +652,7 @@ header a{
 
     .buttn-group{
         display: block;
+        background-color: white;
     }
     .buttn-group .btn1{
         text-align: left;
@@ -946,7 +947,8 @@ header a{
         margin-top: -0.2rem;
     }
     .btn7{
-        padding-top: -7rem;
+        position: relative;
+        top: -1.5rem;
     }
     .sixth{
         margin-left: -5rem;
@@ -1369,7 +1371,8 @@ header a{
         margin-top: -0.2rem;
     }
     .btn7{
-        padding-top: -70rem;
+        position: relative;
+        top: -1.5rem;
     }
     .sixth{
         margin-left: -5rem;
@@ -1794,7 +1797,8 @@ header a{
         margin-top: -0.2rem;
     }
     .btn7{
-        padding-top: -70rem;
+        position: relative;
+        top: -1.5rem;
     }
     .sixth{
         margin-left: -5rem;
@@ -1867,7 +1871,7 @@ header a{
         display: flex;
         flex-direction: column;
         margin-left: -2rem;
-        height: 60rem;
+        height: 51rem;
     }
     .boxi{
         position: relative;
@@ -1894,9 +1898,9 @@ header a{
 } 
 
 @media only screen and (min-width: 426px) and (max-width: 768px){
-    * {
+    /* * {
       outline: 1px solid red;
-    }
+    } */
     body{
         max-height: 100%;
         overflow-x: hidden;
@@ -1967,25 +1971,26 @@ header a{
     }
     .iphone{
         margin-top: -14.5rem;
-        width: 90%;
-        margin-left: 2.3rem;
+        width: 70%;
+        margin-left: 7.3rem;
     }
     .left1{
         width: 100%;
     }
     .left1 h1{
         font-size: 36px;
-        width: 23rem;
+        width: 29rem;
     }
     .left1 p{
-        width: 21rem;
+        width: 28rem;
         font-size: 15px;
     }
     .buttn2{
         display: flex;
         gap: 20px;
-        padding-top: 20px;
+        padding-top: 0px;
         width: 90%;
+        margin-left: 1rem;
     }
     .gem{
         top: -11rem;
@@ -1993,7 +1998,7 @@ header a{
         width: 20rem;
     }
     .giftcat{
-        left: 6.9rem;
+        left: 27.5rem;
     }
     .del{
         left: -2.4rem;
@@ -2009,33 +2014,34 @@ header a{
     .left2 img{
         width: 25rem;
         margin: -110px;
+        margin-left: 3rem;
         margin-top: -2rem;
         margin-bottom: -2rem;
     }
     .right2{
         padding-left: 0px;
-        margin-left: 0px;
+        margin-left: 9rem;
+        text-align: center;
     }
     .right2 h1{
         font-size: 24px;
-        width: 25rem;
+        width: 26rem;
         margin-left: -2rem;
         padding-top: -10rem;
     }
     .right2 p{
         font-size: 14px;
-        width: 22rem;
-        width: 24rem;
+        width: 26rem;
         margin-left: -2rem;
     }
     .btn5{
-        margin-top: 2rem;
-        margin-left: -2rem;
+        margin-top: 0.5rem;
+        margin-left: -9rem;
         font-size: 14px;
     }
     .sarah{
         position: relative;
-        left: 1px;
+        left: 6rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
         width: 20rem;
@@ -2046,28 +2052,30 @@ header a{
         text-align: left;
     }
     .sending{
-        text-align: left;
-        font-size: 22px;
-        margin-left: 0px;
-        width: 22rem;
+        text-align: center;
+        font-size: 25px;
+        margin-left: 11rem;
+        width: 24rem;
         line-height: normal;
     }
     .here{
         text-align: left;
         font-size: 14px;
-        width: 22rem;
+        width: 12rem;
         margin-bottom: -1rem;
+        margin-left: 18rem;
     }
     .how{
         display: grid;
         grid-template-columns: auto;
     }
     .one, .two, .three, .four{
-        width: 23.5rem;
-        height: 380px;
+        width: 33.5rem;
+        height: 400px;
+        margin-left: 5.5rem;
     }
     .others{
-        padding-left: 1.5rem;
+        padding-left: 2.5rem;
     }
     .others h3{
         font-size: 20px;
@@ -2079,13 +2087,13 @@ header a{
     }
     .eventimg{
         margin-top: -1rem;
-        width: 15rem;
+        width: 19rem;
         height: 11rem;
     }
     .reminder{
         position: relative;
-        width: 12rem;
-        height: 5rem;
+        width: 11rem;
+        height: 7rem;
         top: 2.5rem;
         left: 1rem;
     }
@@ -2095,43 +2103,46 @@ header a{
     .voicemessage{
         margin-left: -3.2rem;
         margin-top: -4rem;
-        width: 20.9rem;
-        height: 10rem;
+        width: 26.9rem;
+        height: 12rem;
     }
     .gift{
-        width: 12rem;
+        width: 13rem;
         position: relative;
-        top: -5rem;
-        left: 10rem;
-    }
-    .notsure{
-        width: 12rem;
-        margin-top: -1.5rem;
-    }
-    .browse{
-        width: 8rem;
-        position: relative;
-        top: -3.5rem;
+        top: -6rem;
         left: 14rem;
     }
+    .notsure{
+        width: 15rem;
+        height: 6rem;
+        margin-top: -1.5rem;
+        position: relative;
+        top: -1.5rem;
+    }
+    .browse{
+        width: 9rem;
+        position: relative;
+        top: 1.5rem;
+        left: 6.7rem;
+    }
     .browsegift{
-        width: 11rem;
+        width: 13rem;
         height: 6rem;
         position: relative;
-        top: -7rem;
-        left: 2rem;
+        top: -1.2rem;
+        left: 6rem;
     }
     .delivery{
         margin-top: 1rem;
-        width: 15rem;
+        width: 19rem;
         height: 7rem;
     }
     .imagesfo{
         display: flex;
     }
     .car{
-        width: 7.2rem;
-        height: 7.5rem;
+        width: 10.2rem;
+        height: 8.5rem;
         position: relative;
         top: 4rem;
         left: -0.5rem;
@@ -2150,20 +2161,21 @@ header a{
         padding: 12px;
     }
     .fourth h1{
-        margin-left: -4.5rem;
+        margin-left: 5rem;
         margin-bottom: -1.5rem;
         font-size: 24px;
         padding-bottom: 1rem;
     }
     .fourth p{
-        margin-left: -4.5rem;
+        text-align: center;
+        margin-left: 5rem;
         font-size: 18px;
-        width: 23rem;
+        width: 25rem;
         margin-bottom: 3rem;
     }
     .perfect{
-        margin-left: -4.5rem;
-        margin-right: -4.5rem;
+        margin-left: -3.5rem;
+        margin-right: -3.5rem;
         gap: 10px;
     }
     .each{
@@ -2192,7 +2204,7 @@ header a{
         margin-top: -2.5rem;
     }
     .btn6{
-        left: 2rem;
+        left: 12rem;
         margin-top: 1.5rem;
     }
     .fifth{
@@ -2206,7 +2218,7 @@ header a{
     .bottom{
         padding: 0px;
         padding-top: 2rem;
-        width: 23.5rem;
+        width: 25.5rem;
     }
     .bottom h1{
         font-size: 24px;
@@ -2216,31 +2228,34 @@ header a{
         margin-top: -0.2rem;
     }
     .btn7{
-        padding-top: -70rem;
+        position: relative;
+        top: -1.5rem;
     }
     .sixth{
         margin-left: -5rem;
         margin-top: 0rem;
     }
     .sixth img{
-        width: 15rem;
+        width: 17rem;
+        margin-left: 5.5rem;
     }
     .sixth h1{
         font-size: 24px;
-        margin-left: -5rem;
+        margin-left: 5.5rem;
         margin-bottom: -3rem;
         width: 23rem;
     }
     .shift{
         display: flex;
         flex-direction: column;
-        margin-left: -5.5rem;
+        margin-left: 1.5rem;
     }
     .bent-text, .bent-text1, .bent-text2{
         transform: none;
-        width: 21rem;
+        width: 28rem;
+        height: 10rem;
         padding: -1rem;
-        font-size: 14px;
+        font-size: 18px;
         margin-bottom: -3rem;
     }
     .bent-text h6{
@@ -2255,14 +2270,14 @@ header a{
     }
     .colon1{
         position: relative;
-        top: 2.2rem;
-        left: -5.5rem;
+        top: 1.9rem;
+        left: 0rem;
         font-size: 2.5rem;
     }
     .colon2{
         position: relative;
-        left: 10rem;
-        top: 2rem;
+        left: 4rem;
+        top: 2.5rem;
         font-size: 2.5rem;
     }
     .seventh{
@@ -2272,12 +2287,12 @@ header a{
         width: 20.5rem;
     }
     .down h1{
-        font-size: 22px;
+        font-size: 26px;
     }
     .get{
         gap: 20px;
-        width: 19rem;
-        margin-left: -1rem;
+        width: 20rem;
+        margin-left: -1.5rem;
     }
     .google{
         font-size: 7px;
@@ -2287,27 +2302,30 @@ header a{
     }
     .footer{
         display: flex;
-        flex-direction: column;
+        gap: 30px;
+        /* flex-direction: column; */
         margin-left: -2rem;
-        height: 60rem;
+        height: 20rem;
+        width: 43rem;
     }
-    .boxi{
+    /* .boxi{
         position: relative;
         top: -8rem;
         left: 17rem;
         width: 5rem;
-    }
+    } */
     .links{
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         position: relative;
-        top: 2.5rem;
-        margin-left: -2rem;
+        top: 7.5rem;
+        /* margin-left: -2rem; */
         margin-top: -7rem;
+        width: 35rem;
     }
     .newsletter{
         position: relative;
-        top: -60rem;
+        /* top: -60rem; */
         width: 20rem;
     }
     .copyright{
@@ -2320,47 +2338,200 @@ header a{
     * {
       outline: 1px solid red;
     }
-    header{
-        width: 120%;
-        gap: 65px;
-        /* margin-left: -3rem; */
-        /* padding-right: -3rem; */
+    body{
+        max-height: 100%;
+        overflow-x: hidden;
     }
-    #navLinks{
-        width: 29rem;
+    header{
+        padding: 0px;
+        margin: 0px;
+    }
+    .logoimg{
+        padding: 20px;
+        margin: 0px;
+    }
+    .nav-links {
+        display: none;
+        background: white;
+        position: fixed;
+        top: 4rem;
+        right: 0;
+        width: 50%;
+        height: 10vh;
+        line-height: 1.5;
+    }
+
+    /* .nav-links.active {
+        right: 0;
+    } */
+
+    .buttn-group{
+        display: block;
+    }
+    .buttn-group .btn1{
+        text-align: left;
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+    .hamburger{
+        display: flex;
+    }
+    /* Hamburger animation */
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px);
+    }
+    
+    .buttn{
+        display: none;
     }
     .main{
+        display: flex;
+        flex-direction: column;
+        width: 88%;
+        height: 64.1rem;
+        margin-left: 1.5rem;
+        padding-left: 1rem;
+        padding-top: 1.6rem;
         background-color: #FAF1E5;
-        width: 120%;
-
+    }
+    .frame{
+        position: relative;
+        margin-left: 20rem;
+        top: 26rem;
+        width: 3.5rem;
+    }
+    .iphone{
+        margin-top: -14.5rem;
+        width: 60%;
+        height: 42.5rem;
+        margin-left: 10.5rem;
+    }
+    .left1{
+        width: 100%;
+    }
+    .left1 h1{
+        font-size: 36px;
+        width: 29rem;
+    }
+    .left1 p{
+        width: 28rem;
+        font-size: 15px;
+    }
+    .buttn2{
+        display: flex;
+        gap: 20px;
+        padding-top: 0px;
+        width: 90%;
+        margin-left: 1rem;
+    }
+    .gem{
+        top: -11rem;
+        left: -0.6rem;
+        width: 20rem;
+    }
+    .giftcat{
+        left: 39.5rem;
+    }
+    .del{
+        left: -1.4rem;
+        top: -21.5rem;
     }
     .second{
-        gap: 100px;
-        width: 150%;
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(to bottom, white, #f8d6e3);
+        width: 85.4%;
+        height: 55rem;
+    }
+    .left2 img{
+        width: 25rem;
+        margin: -110px;
+        margin-left: 3rem;
+        margin-top: -2rem;
+        margin-bottom: -2rem;
+    }
+    .right2{
+        padding-left: 0px;
+        margin-left: 9rem;
+        text-align: center;
     }
     .right2 h1{
-        font-size: 44px;
+        font-size: 24px;
+        width: 26rem;
+        margin-left: -2rem;
+        padding-top: -10rem;
+    }
+    .right2 p{
+        font-size: 14px;
+        width: 26rem;
+        margin-left: -2rem;
+    }
+    .btn5{
+        margin-top: 0.5rem;
+        margin-left: -9rem;
+        font-size: 14px;
     }
     .sarah{
         position: relative;
-        top: 2rem;
+        left: 6rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 20rem;
+    }
+    .third{
+        padding: 0px;
+        margin: 1.5rem;
+        text-align: left;
+    }
+    .sending{
+        text-align: center;
+        font-size: 25px;
+        margin-left: 11rem;
+        width: 24rem;
+        line-height: normal;
+    }
+    .here{
+        text-align: left;
+        font-size: 14px;
+        width: 12rem;
+        margin-bottom: -1rem;
+        margin-left: 18rem;
     }
     .how{
-        width: 86%;
+        display: grid;
+        grid-template-columns: auto;
     }
     .one, .two, .three, .four{
-        width: 605px;
-        height: 480px;
+        width: 33.5rem;
+        height: 400px;
+        margin-left: 5.5rem;
+    }
+    .others{
+        padding-left: 2.5rem;
+    }
+    .others h3{
+        font-size: 20px;
+        width: 20rem;
+        margin-bottom: -1rem;
+    }
+    .others p{
+        font-size: 18px;
     }
     .eventimg{
-        margin-top: -0.5rem;
-        width: 20rem;
-        height: 14rem;
+        margin-top: -1rem;
+        width: 19rem;
+        height: 11rem;
     }
     .reminder{
         position: relative;
         width: 11rem;
-        height: 9rem;
+        height: 7rem;
         top: 2.5rem;
         left: 1rem;
     }
@@ -2368,103 +2539,239 @@ header a{
         display: flex;
     }
     .voicemessage{
-        position: relative;
-        margin-left: -1.2rem;
-        top: 3rem;
+        margin-left: -3.2rem;
+        margin-top: -4rem;
         width: 26.9rem;
-        height: 11rem;
+        height: 12rem;
     }
     .gift{
-        width: 15rem;
+        width: 13rem;
         position: relative;
-        top: -8rem;
-        left: 16rem;
+        top: -6rem;
+        left: 14rem;
     }
     .notsure{
+        width: 15rem;
+        height: 6rem;
+        margin-top: -1.5rem;
         position: relative;
-        width: 18rem;
-        top: -2rem;
+        top: -1.5rem;
     }
     .browse{
-        width: 10rem;
+        width: 9rem;
         position: relative;
-        top: 1rem;
-        left: 7rem;
+        top: 1.5rem;
+        left: 6.7rem;
     }
     .browsegift{
         width: 13rem;
         height: 6rem;
         position: relative;
-        top: -1.8rem;
-        left: 8rem;
+        top: -1.2rem;
+        left: 6rem;
     }
     .delivery{
-        margin-top: 2.5rem;
-        width: 23rem;
-        height: 8rem;
+        margin-top: 1rem;
+        width: 19rem;
+        height: 7rem;
     }
     .imagesfo{
         display: flex;
     }
     .car{
-        width: 13.2rem;
-        height: 9.5rem;
+        width: 10.2rem;
+        height: 8.5rem;
         position: relative;
-        top: 6rem;
+        top: 4rem;
         left: -0.5rem;
     }
+    .share{
+        margin-top: -1rem;
+        margin-right: 0px;
+        width: 20rem;
+    }
     .download{
-        width: 30rem;
+        margin-top: 1rem;
     }
     .app{
-        width: 10rem;
+        font-size: 15px;
+        width: 8.9rem;
+        padding: 12px;
+    }
+    .fourth h1{
+        margin-left: 5rem;
+        margin-bottom: -1.5rem;
+        font-size: 24px;
+        padding-bottom: 1rem;
+    }
+    .fourth p{
+        text-align: center;
+        margin-left: 5rem;
+        font-size: 18px;
+        width: 25rem;
+        margin-bottom: 3rem;
     }
     .perfect{
-        margin-top: 3rem;
+        margin-left: -3.5rem;
+        margin-right: -3.5rem;
+        gap: 10px;
+    }
+    .each{
+        width: 12rem;
+        height: 16rem;
+        border-radius: 15px;
+    }
+    .each img{
+        width: 12rem;
+        height: 10rem;
+    }
+    .text{
+        display: flex;
+        gap: 4.5rem;
+        width: 20rem;
+    }
+    .text h5{
+        font-size: 14px;
+        width: 11.5rem;
+        margin-right: 0px;
+    }
+    .text p{
+        font-size: 12px;
+    }
+    .each h6{
+        margin-top: -2.5rem;
+    }
+    .btn6{
+        left: 12rem;
+        margin-top: 1.5rem;
+    }
+    .fifth{
+        margin: 1.5rem;
+        margin-top: -1rem;
+    }
+    .top{
+        height: 14vh;
+        background-size: cover;
+    }
+    .bottom{
+        padding: 0px;
+        padding-top: 2rem;
+        width: 25.5rem;
+    }
+    .bottom h1{
+        font-size: 24px;
+    }
+    .bottom p{
+        font-size: 16px;
+        margin-top: -0.2rem;
+    }
+    .btn7{
+        position: relative;
+        top: -1.5rem;
+    }
+    .sixth{
+        margin-left: -5rem;
+        margin-top: 0rem;
+    }
+    .sixth img{
+        width: 17rem;
+        margin-left: 5.5rem;
+    }
+    .sixth h1{
+        font-size: 24px;
+        margin-left: 5.5rem;
+        margin-bottom: -3rem;
+        width: 23rem;
     }
     .shift{
-        width: 80rem;
-        margin-left: -12.5rem;
-        margin-top: -2rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 1.5rem;
     }
-    .bent-text{
-        width: 45rem;
-        height: 15rem;
+    .bent-text, .bent-text1, .bent-text2{
+        transform: none;
+        width: 28rem;
+        height: 10rem;
+        padding: -1rem;
+        font-size: 18px;
+        margin-bottom: -3rem;
     }
-    .bent-text1{
-        width: 45rem;
-        height: 15rem;
+    .bent-text h6{
+        font-size: 11px;
+        font-weight: 600;
     }
-    .bent-text2{
-        width: 45rem;
-        height: 15rem;
+    .bent-text1 h6{
+        font-size: 11px;
+    }
+    .bent-text2 h6{
+        font-size: 11px;
     }
     .colon1{
         position: relative;
-        left: -12.5rem;
-        top: -2rem;
+        top: 1.9rem;
+        left: 0rem;
+        font-size: 2.5rem;
     }
     .colon2{
         position: relative;
-        left: 7rem;
-        top: 2rem;
+        left: 4rem;
+        top: 2.5rem;
+        font-size: 2.5rem;
+    }
+    .seventh{
+        margin-top: -3rem;
+    }
+    .down{
+        width: 20.5rem;
+    }
+    .down h1{
+        font-size: 26px;
     }
     .get{
-        display: flex;
-        width: 25.5rem;
-        margin-left: 4rem;
+        gap: 20px;
+        width: 20rem;
+        margin-left: -1.5rem;
     }
     .google{
-        width: 10rem;
-    }
-    .links{
-        width: 25rem;
+        font-size: 7px;
     }
     .eight{
         background-color: #FAF1E5;
     }
     .footer{
-        gap: 120px;
+        display: flex;
+        gap: 32px;
+        /* flex-direction: column; */
+        margin-left: -2rem;
+        height: 20rem;
+        width: 59rem;
+    }
+    .social{
+        width: 10rem;
+    }
+    /* .boxi{
+        position: relative;
+        top: -8rem;
+        left: 17rem;
+        width: 5rem;
+    } */
+    .links{
+        display: flex;
+        /* flex-direction: column; */
+        position: relative;
+        top: 7.5rem;
+        /* margin-left: -2rem; */
+        margin-top: -7rem;
+        width: 24rem;
+    }
+    .newsletter{
+        position: relative;
+        /* top: -60rem; */
+        width: 20rem;
+        margin-left: 2.5rem;
+    }
+    .copyright{
+        font-size: 13px;
     }
 }
 
