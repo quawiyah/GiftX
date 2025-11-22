@@ -1028,7 +1028,7 @@ header a{
     }
     .boxi{
         position: relative;
-        top: -8rem;
+        top: -6rem;
         left: 17rem;
         width: 5rem;
     }
@@ -1041,7 +1041,7 @@ header a{
     }
     .newsletter{
         position: relative;
-        top: -60rem;
+        top: -61rem;
         width: 20rem;
     }
 }
@@ -1894,18 +1894,449 @@ header a{
 } 
 
 @media only screen and (min-width: 426px) and (max-width: 768px){
+    * {
+      outline: 1px solid red;
+    }
+    body{
+        max-height: 100%;
+        overflow-x: hidden;
+    }
+    header{
+        padding: 0px;
+        margin: 0px;
+    }
+    .logoimg{
+        padding: 20px;
+        margin: 0px;
+    }
+    .nav-links {
+        display: none;
+        background: white;
+        position: fixed;
+        top: 4rem;
+        right: 0;
+        width: 50%;
+        height: 10vh;
+        line-height: 1.5;
+    }
+
+    /* .nav-links.active {
+        right: 0;
+    } */
+
+    .buttn-group{
+        display: block;
+    }
+    .buttn-group .btn1{
+        text-align: left;
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+    .hamburger{
+        display: flex;
+    }
+    /* Hamburger animation */
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px);
+    }
+    
+    .buttn{
+        display: none;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        width: 84.5%;
+        height: 64.1rem;
+        margin-left: 1.5rem;
+        padding-left: 1rem;
+        padding-top: 1.6rem;
+        background-color: #FAF1E5;
+    }
+    .frame{
+        position: relative;
+        margin-left: 20rem;
+        top: 26rem;
+        width: 3.5rem;
+    }
+    .iphone{
+        margin-top: -14.5rem;
+        width: 90%;
+        margin-left: 2.3rem;
+    }
+    .left1{
+        width: 100%;
+    }
+    .left1 h1{
+        font-size: 36px;
+        width: 23rem;
+    }
+    .left1 p{
+        width: 21rem;
+        font-size: 15px;
+    }
+    .buttn2{
+        display: flex;
+        gap: 20px;
+        padding-top: 20px;
+        width: 90%;
+    }
+    .gem{
+        top: -11rem;
+        left: -0.6rem;
+        width: 20rem;
+    }
+    .giftcat{
+        left: 6.9rem;
+    }
+    .del{
+        left: -2.4rem;
+        top: -21.5rem;
+    }
+    .second{
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(to bottom, white, #f8d6e3);
+        width: 85.4%;
+        height: 55rem;
+    }
+    .left2 img{
+        width: 25rem;
+        margin: -110px;
+        margin-top: -2rem;
+        margin-bottom: -2rem;
+    }
+    .right2{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .right2 h1{
+        font-size: 24px;
+        width: 25rem;
+        margin-left: -2rem;
+        padding-top: -10rem;
+    }
+    .right2 p{
+        font-size: 14px;
+        width: 22rem;
+        width: 24rem;
+        margin-left: -2rem;
+    }
+    .btn5{
+        margin-top: 2rem;
+        margin-left: -2rem;
+        font-size: 14px;
+    }
+    .sarah{
+        position: relative;
+        left: 1px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 20rem;
+    }
+    .third{
+        padding: 0px;
+        margin: 1.5rem;
+        text-align: left;
+    }
+    .sending{
+        text-align: left;
+        font-size: 22px;
+        margin-left: 0px;
+        width: 22rem;
+        line-height: normal;
+    }
+    .here{
+        text-align: left;
+        font-size: 14px;
+        width: 22rem;
+        margin-bottom: -1rem;
+    }
+    .how{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .one, .two, .three, .four{
+        width: 23.5rem;
+        height: 380px;
+    }
+    .others{
+        padding-left: 1.5rem;
+    }
+    .others h3{
+        font-size: 20px;
+        width: 20rem;
+        margin-bottom: -1rem;
+    }
+    .others p{
+        font-size: 18px;
+    }
+    .eventimg{
+        margin-top: -1rem;
+        width: 15rem;
+        height: 11rem;
+    }
+    .reminder{
+        position: relative;
+        width: 12rem;
+        height: 5rem;
+        top: 2.5rem;
+        left: 1rem;
+    }
+    .images{
+        display: flex;
+    }
+    .voicemessage{
+        margin-left: -3.2rem;
+        margin-top: -4rem;
+        width: 20.9rem;
+        height: 10rem;
+    }
+    .gift{
+        width: 12rem;
+        position: relative;
+        top: -5rem;
+        left: 10rem;
+    }
+    .notsure{
+        width: 12rem;
+        margin-top: -1.5rem;
+    }
+    .browse{
+        width: 8rem;
+        position: relative;
+        top: -3.5rem;
+        left: 14rem;
+    }
+    .browsegift{
+        width: 11rem;
+        height: 6rem;
+        position: relative;
+        top: -7rem;
+        left: 2rem;
+    }
+    .delivery{
+        margin-top: 1rem;
+        width: 15rem;
+        height: 7rem;
+    }
+    .imagesfo{
+        display: flex;
+    }
+    .car{
+        width: 7.2rem;
+        height: 7.5rem;
+        position: relative;
+        top: 4rem;
+        left: -0.5rem;
+    }
+    .share{
+        margin-top: -1rem;
+        margin-right: 0px;
+        width: 20rem;
+    }
+    .download{
+        margin-top: 1rem;
+    }
+    .app{
+        font-size: 15px;
+        width: 8.9rem;
+        padding: 12px;
+    }
+    .fourth h1{
+        margin-left: -4.5rem;
+        margin-bottom: -1.5rem;
+        font-size: 24px;
+        padding-bottom: 1rem;
+    }
+    .fourth p{
+        margin-left: -4.5rem;
+        font-size: 18px;
+        width: 23rem;
+        margin-bottom: 3rem;
+    }
+    .perfect{
+        margin-left: -4.5rem;
+        margin-right: -4.5rem;
+        gap: 10px;
+    }
+    .each{
+        width: 12rem;
+        height: 16rem;
+        border-radius: 15px;
+    }
+    .each img{
+        width: 12rem;
+        height: 10rem;
+    }
+    .text{
+        display: flex;
+        gap: 4.5rem;
+        width: 20rem;
+    }
+    .text h5{
+        font-size: 14px;
+        width: 11.5rem;
+        margin-right: 0px;
+    }
+    .text p{
+        font-size: 12px;
+    }
+    .each h6{
+        margin-top: -2.5rem;
+    }
+    .btn6{
+        left: 2rem;
+        margin-top: 1.5rem;
+    }
+    .fifth{
+        margin: 1.5rem;
+        margin-top: -1rem;
+    }
+    .top{
+        height: 14vh;
+        background-size: cover;
+    }
+    .bottom{
+        padding: 0px;
+        padding-top: 2rem;
+        width: 23.5rem;
+    }
+    .bottom h1{
+        font-size: 24px;
+    }
+    .bottom p{
+        font-size: 16px;
+        margin-top: -0.2rem;
+    }
+    .btn7{
+        padding-top: -70rem;
+    }
+    .sixth{
+        margin-left: -5rem;
+        margin-top: 0rem;
+    }
+    .sixth img{
+        width: 15rem;
+    }
+    .sixth h1{
+        font-size: 24px;
+        margin-left: -5rem;
+        margin-bottom: -3rem;
+        width: 23rem;
+    }
+    .shift{
+        display: flex;
+        flex-direction: column;
+        margin-left: -5.5rem;
+    }
+    .bent-text, .bent-text1, .bent-text2{
+        transform: none;
+        width: 21rem;
+        padding: -1rem;
+        font-size: 14px;
+        margin-bottom: -3rem;
+    }
+    .bent-text h6{
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .bent-text1 h6{
+        font-size: 11px;
+    }
+    .bent-text2 h6{
+        font-size: 11px;
+    }
+    .colon1{
+        position: relative;
+        top: 2.2rem;
+        left: -5.5rem;
+        font-size: 2.5rem;
+    }
+    .colon2{
+        position: relative;
+        left: 10rem;
+        top: 2rem;
+        font-size: 2.5rem;
+    }
+    .seventh{
+        margin-top: -3rem;
+    }
+    .down{
+        width: 20.5rem;
+    }
+    .down h1{
+        font-size: 22px;
+    }
+    .get{
+        gap: 20px;
+        width: 19rem;
+        margin-left: -1rem;
+    }
+    .google{
+        font-size: 7px;
+    }
+    .eight{
+        background-color: #FAF1E5;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin-left: -2rem;
+        height: 60rem;
+    }
+    .boxi{
+        position: relative;
+        top: -8rem;
+        left: 17rem;
+        width: 5rem;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 2.5rem;
+        margin-left: -2rem;
+        margin-top: -7rem;
+    }
+    .newsletter{
+        position: relative;
+        top: -60rem;
+        width: 20rem;
+    }
+    .copyright{
+        font-size: 13px;
+    }
 
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px){
+    * {
+      outline: 1px solid red;
+    }
     header{
-        width: 86%;
+        width: 120%;
+        gap: 65px;
+        /* margin-left: -3rem; */
+        /* padding-right: -3rem; */
+    }
+    #navLinks{
+        width: 29rem;
     }
     .main{
         background-color: #FAF1E5;
+        width: 120%;
+
     }
     .second{
         gap: 100px;
+        width: 150%;
     }
     .right2 h1{
         font-size: 44px;
