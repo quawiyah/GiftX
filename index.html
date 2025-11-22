@@ -5,26 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="gift.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>GiftX</title>
 </head>
 <body>
     <header>
         <div>
-            <img src="GIFTX LOGO_20250813_144904_0000.png">
+            <img src="GIFTX LOGO_20250813_144904_0000.png" class="logoimg">
         </div>
         <nav>
-            <ul>
+            <ul id="navLinks" class="nav-links">
                 <li><a href="#">Explore Gifts</a></li>
                 <li><a href="#">How GiftX works</a></li>
                 <li><a href="#">Support & Help</a></li>
+                <div class="buttn-group">
+                    <button class="btn1">Sign in</button>
+                    <button class="btn2">Get Started</button>
+                </div>
             </ul>
         </nav>
         <div class="buttn">
             <button class="btn1">Sign in</button>
             <button class="btn2">Get Started</button>
         </div>
+        <!-- <div class="hamburger" id="hamburger">
+            <i class="bi bi-list"></i>
+            <span>Explore Gifts</span>
+            <span>How GiftX works</span>
+            <span>Support & Help</span>
+        </div> -->
+        <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
     </header>
-    <main>
+    <div class="main">
         <div class="left1">
             <h1>
                 THE PERFECT GIFT, ALWAYS REMEMBERED.
@@ -53,7 +69,7 @@
                 <img src="Frame 34153.png" class="del">
             </div>
         </div>
-    </main>
+    </div>
     <div class="second" >
         <div class="left2">
             <img src="image 161.png">
@@ -78,7 +94,7 @@
                     <h1>1</h1>
                     <h3>Add Your Dates</h3><br>
                     <p>Keep birthdays, anniversaries, and milestones all in one place.</p><br><br>
-                    <div>
+                    <div class="images">
                         <img src="Frame 34064.png" class="eventimg">
                         <img src="reminder_17753989 1.png" class="reminder">
                     </div>
@@ -103,8 +119,8 @@
                     <h3>Discover the Perfect Gift</h3><br>
                     <p>Browse, choose, and personalize something meaningful.</p>
                     <div style="padding-top: 40px;">
-                        <img src="Frame 33846.png">
-                        <img src="Frame 34111.png" class="browse"><br>
+                        <img src="Frame 33846.png" class="notsure">
+                        <img src="Frame 34111.png" class="browse"><br><br>
                         <img src="Frame 34297.png" class="browsegift">
                     </div>
                 </div>
@@ -115,13 +131,13 @@
                     <h1>4</h1>
                     <h3>Send Instantly or Schedule Ahead</h3><br>
                     <p>Deliver right away or set it to arrive exactly when it matters.</p>
-                    <div>
+                    <div class="imagesfo">
                         <img src="Frame 34065.png" class="delivery">
                         <img src="Frame 34311.png" class="car">
                     </div>
                 </div>
             </div>
-            <p style="font-size: 14px; width: 270px;">Share joy with those you care about. Get the app on iOS or Android</p>
+            <p style="font-size: 14px; width: 270px;" class="share">Share joy with those you care about. Get the app on iOS or Android</p>
         </div>
         <div class="download">
             <div class="app">
@@ -200,13 +216,13 @@
             <p>Add a personal note, pick the perfect wrap, or choose something only they would 
                 love. With GiftX, every gift carries a piece of you.
             </p>
-            <button class="btn2">Get Started</button>
+            <button class="btn7">Get Started</button>
         </div>
     </div>
     <div class="sixth">
         <img src="image 157.png">
         <h1>WHAT PEOPLE ARE SAYING...</h1>
-        <p class="colon1">"</p>
+        <p class="colon1">“</p>
         <div class="shift">
             <div class="bent-text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem error nulla ipsum, explicabo qui quos eos consequuntur porro et neque, saepe corporis, harum dicta sequi tempore exercitationem corrupti sapiente cupiditate.</p><br>
@@ -222,7 +238,7 @@
             </div>
         </div>
         <!-- <img src="Frame 34340.png"> -->
-        <p class="colon2">"</p>
+        <p class="colon2">”</p>
     </div>
     <div class="seventh">
         <div class="design"></div>
@@ -256,12 +272,16 @@
         <div class="zigzag"></div>
         <div class="footer">
             <div class="social">
-                <img src="GIFTX LOGO_20250813_144904_0000.png">
-                <h5>Never forget important events</h5><br><br>
-                <p>Join us on</p><br>
-                <i class="bi bi-instagram"></i>
-                <i class="bi bi-linkedin"></i>
-                <i class="bi bi-tiktok"></i>
+                <div>
+                    <img src="GIFTX LOGO_20250813_144904_0000.png">
+                    <h5>Never forget important events</h5><br><br>
+                </div>
+                <div class="boxi">
+                    <p>Join us on</p><br>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-linkedin"></i>
+                    <i class="bi bi-tiktok"></i>
+                </div>
             </div>
             <div class="links">
                 <div>
@@ -297,5 +317,24 @@
         </div> -->
         <p class="copyright">2025 GiftX. All rights reserved.</p>
     </div>
+    <script>
+        const hamburger = document.getElementById("hamburger");
+        const navLinks = document.getElementById("navLinks");
+
+        hamburger.addEventListener("click", () => {
+            hamburger.classList.toggle("active");
+            if (navLinks.style.display === "none" || navLinks.style.display === "") {
+              navLinks.style.display = "block";   // open
+            } else {
+              navLinks.style.display = "none";    // close
+            }
+          });
+
+          document.addEventListener("click", (e) => {
+            if (!navLinks.contains(e.target) && e.target !== hamburger) {
+              navLinks.style.display = "none";
+            }
+        });
+    </script>
 </body>
 </html>

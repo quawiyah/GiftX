@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dd.css">
+    <title>Document</title>
+</head>
+<body>
+    <button id="hamburger">☰</button>
+
+<nav id="mobileMenu" style="display: none;">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+<script>
+    const hamburger = document.getElementById("hamburger");
+const menu = document.getElementById("mobileMenu");
+
+hamburger.addEventListener("click", () => {
+  if (menu.style.display === "none" || menu.style.display === "") {
+    menu.style.display = "block";   // open
+  } else {
+    menu.style.display = "none";    // close
+  }
+});
+
+document.addEventListener("click", (e) => {
+  if (!menu.contains(e.target) && e.target !== hamburger) {
+    menu.style.display = "none";
+  }
+});
+</script>
+</body>
+</html>
