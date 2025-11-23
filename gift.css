@@ -1973,7 +1973,7 @@ header a{
         display: flex;
         flex-direction: column;
         width: 74%;
-        height: 62rem;
+        height: 63rem;
         margin-left: 1rem;
         margin-left: 1rem;
         padding-left: 1rem;
@@ -1982,7 +1982,7 @@ header a{
     }
     .frame{
         position: relative;
-        margin-left: 20rem;
+        margin-left: 19.5rem;
         top: 26rem;
         width: 3.5rem;
     }
@@ -2014,7 +2014,7 @@ header a{
         width: 20rem;
     }
     .giftcat{
-        left: 6.5rem;
+        left: 6.4rem;
     }
     .del{
         left: -2.4rem;
@@ -2329,7 +2329,7 @@ header a{
     }
     .newsletter{
         position: relative;
-        top: -60rem;
+        top: -57rem;
         width: 20rem;
 
     }
