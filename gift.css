@@ -644,6 +644,7 @@ header a{
         width: 50%;
         height: 10vh;
         line-height: 1.5;
+        padding: 10px;
     }
 
     /* .nav-links.active {
@@ -653,6 +654,8 @@ header a{
     .buttn-group{
         display: block;
         background-color: white;
+        padding: 10px;
+        margin-left: -0.6rem;
     }
     .buttn-group .btn1{
         text-align: left;
@@ -1070,6 +1073,7 @@ header a{
         width: 50%;
         height: 10vh;
         line-height: 1.5;
+        padding: 10px;
     }
 
     /* .nav-links.active {
@@ -1078,6 +1082,9 @@ header a{
 
     .buttn-group{
         display: block;
+        background-color: white;
+        padding: 10px;
+        margin-left: -0.6rem;
     }
     .buttn-group .btn1{
         text-align: left;
@@ -1499,6 +1506,7 @@ header a{
         width: 50%;
         height: 10vh;
         line-height: 1.5;
+        padding: 10px;
     }
 
     /* .nav-links.active {
@@ -1507,6 +1515,9 @@ header a{
 
     .buttn-group{
         display: block;
+        background-color: white;
+        padding: 10px;
+        margin-left: -0.6rem;
     }
     .buttn-group .btn1{
         text-align: left;
@@ -1515,6 +1526,7 @@ header a{
     }
     .hamburger{
         display: flex;
+        margin-right: 2.5rem;
     }
     /* Hamburger animation */
     .hamburger.active span:nth-child(1) {
@@ -1535,6 +1547,7 @@ header a{
         flex-direction: column;
         width: 75%;
         height: 64.1rem;
+        margin-left: 1rem;
         margin-left: 1rem;
         padding-left: 1rem;
         padding-top: 1.6rem;
@@ -1922,6 +1935,7 @@ header a{
         width: 50%;
         height: 10vh;
         line-height: 1.5;
+        padding: 10px;
     }
 
     /* .nav-links.active {
@@ -1930,6 +1944,9 @@ header a{
 
     .buttn-group{
         display: block;
+        background-color: white;
+        padding: 10px;
+        margin-left: -0.6rem;
     }
     .buttn-group .btn1{
         text-align: left;
