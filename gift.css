@@ -1912,6 +1912,9 @@ header a{
 } 
 
 @media only screen and (min-width: 414px) and (max-width: 414px){
+    {
+      outline: 1px solid red;
+    }
     body{
         max-height: 100%;
         overflow-x: hidden;
