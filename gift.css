@@ -1976,7 +1976,7 @@ header a{
         display: flex;
         flex-direction: column;
         width: 74%;
-        height: 63.5rem;
+        height: 64rem;
         margin-left: 1rem;
         margin-left: 1rem;
         padding-left: 1rem;
@@ -2017,7 +2017,7 @@ header a{
         width: 20rem;
     }
     .giftcat{
-        left: 6.4rem;
+        left: 6rem;
     }
     .del{
         left: -2.5rem;
