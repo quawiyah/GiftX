@@ -1976,7 +1976,7 @@ header a{
         display: flex;
         flex-direction: column;
         width: 74%;
-        height: 64rem;
+        height: 64.1rem;
         margin-left: 1rem;
         margin-left: 1rem;
         padding-left: 1rem;
@@ -2027,11 +2027,11 @@ header a{
         display: flex;
         flex-direction: column;
         background: linear-gradient(to bottom, white, #f8d6e3);
-        width: 73.5%;
+        width: 73%;
         height: 55rem;
     }
     .left2 img{
-        width: 25rem;
+        width: 24.5rem;
         margin: -110px;
         margin-top: -2rem;
         margin-bottom: -2rem;
@@ -2042,7 +2042,7 @@ header a{
     }
     .right2 h1{
         font-size: 24px;
-        width: 25rem;
+        width: 24rem;
         margin-left: -2rem;
         padding-top: -10rem;
     }
