@@ -1973,7 +1973,7 @@ header a{
         display: flex;
         flex-direction: column;
         width: 74%;
-        height: 63rem;
+        height: 63.5rem;
         margin-left: 1rem;
         margin-left: 1rem;
         padding-left: 1rem;
@@ -1982,9 +1982,9 @@ header a{
     }
     .frame{
         position: relative;
-        margin-left: 19.5rem;
+        margin-left: 19.1rem;
         top: 26rem;
-        width: 3.5rem;
+        width: 3.1rem;
     }
     .iphone{
         margin-top: -14.5rem;
@@ -2017,7 +2017,7 @@ header a{
         left: 6.4rem;
     }
     .del{
-        left: -2.4rem;
+        left: -2.5rem;
         top: -21.5rem;
     }
     .second{
