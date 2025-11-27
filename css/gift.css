@@ -215,8 +215,11 @@ header a{
 }
 .how{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, 1fr);
     gap: 60px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 0px;
 }
 .how hr{
     border: 2px solid #562442;
@@ -226,7 +229,8 @@ header a{
     background-color: #F8DFDB;
     border-radius: 20px;
     height: 550px;
-    width: 780px;
+    overflow: hidden;
+    /* width: 100%; */
 }
 .eventimg{
     margin-top: 21px;
@@ -259,7 +263,8 @@ header a{
     background-color: #F9C3D6;
     border-radius: 20px;
     height: 550px;
-    width: 780px;
+    overflow: hidden;
+    /* width: 100%; */
 }
 .voicemessage{
     position: relative;
@@ -277,7 +282,8 @@ header a{
     background-color: #FBEECE;
     border-radius: 20px;
     height: 550px;
-    width: 780px;
+    overflow: hidden;
+    /* width: 100%; */
 }
 .browse{
     position: relative;
@@ -293,7 +299,8 @@ header a{
     background-color: #FBDA8A;
     border-radius: 20px;
     height: 550px;
-    width: 780px;
+    overflow: hidden;
+    /* width: 100%; */
 }
 .delivery{
     width: 350px;
