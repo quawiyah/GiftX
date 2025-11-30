@@ -1,5 +1,5 @@
 *{
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     margin: 0;
 }
 body{
@@ -2050,7 +2050,7 @@ header a{
     }
     .left2 img{
         width: 24.5rem;
-        margin: -110px;
+        margin: -30px;
         margin-top: -2rem;
         margin-bottom: -2rem;
     }
@@ -2104,10 +2104,10 @@ header a{
         display: grid;
         grid-template-columns: auto;
     }
-    /* .one, .two, .three, .four{
-        width: 23.5rem;
+    .one, .two, .three, .four{
+        /* width: 23.5rem; */
         height: 380px;
-    } */
+    }
     .others{
         padding-left: 1.5rem;
     }
@@ -2262,7 +2262,8 @@ header a{
         top: -1.5rem;
     }
     .sixth{
-        /* margin-left: -5rem; */
+        margin-left: 1rem;
+        width: 90%;
         margin-top: 0rem;
     }
     .sixth img{
@@ -2270,9 +2271,9 @@ header a{
     }
     .sixth h1{
         font-size: 24px;
-        margin-left: -5rem;
+        margin-left: 1rem;
         margin-bottom: -3rem;
-        width: 23rem;
+        /* width: 23rem; */
     }
     .shift{
         display: flex;
@@ -2347,7 +2348,7 @@ header a{
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 2.5rem;
+        top: 5rem;
         margin-left: -2rem;
         margin-top: -8rem;
     }
