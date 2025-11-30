@@ -414,7 +414,7 @@ header a{
 }
 .top{
     height: 20vh;
-    background-image: url("/assets/images/Frame_34339.png");
+    background-image: url("../assets/images/Frame_34339.png");
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
