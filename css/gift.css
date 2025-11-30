@@ -414,7 +414,7 @@ header a{
 }
 .top{
     height: 20vh;
-    background-image: url("/assets/images/Frame_34339.png");
+    background-image: url("../assets/images/Frame_34339.png");
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -511,7 +511,7 @@ header a{
     color: white;
 }
 .design{
-    background-image: url("/assets/images/Frame_34346.png");
+    background-image: url("../assets/images/Frame_34346.png");
     height: 20vh;
 }
 .down{
@@ -550,7 +550,7 @@ header a{
     background-color: #FAF1E5;
 }
 .zigzag{
-    background-image: url("/assets/images/Group_15.png");
+    background-image: url("../assets/images/Group_15.png");
     height: 3vh;
 }
 .footer{
