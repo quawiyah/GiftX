@@ -1,5 +1,5 @@
 *{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin: 0;
 }
 body{
@@ -2049,7 +2049,7 @@ header a{
         height: 55rem;
     }
     .left2 img{
-        width: 24.5rem;
+        width: 24rem;
         margin: -30px;
         margin-top: -2rem;
         margin-bottom: -2rem;
