@@ -1,5 +1,5 @@
 *{
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     margin: 0;
 }
 body{
@@ -228,7 +228,7 @@ header a{
 .one{
     background-color: #F8DFDB;
     border-radius: 20px;
-    height: 550px;
+    height: 535px;
     overflow: hidden;
     /* width: 100%; */
 }
@@ -262,7 +262,7 @@ header a{
 .two{
     background-color: #F9C3D6;
     border-radius: 20px;
-    height: 550px;
+    height: 535px;
     overflow: hidden;
     /* width: 100%; */
 }
@@ -281,7 +281,7 @@ header a{
 .three{
     background-color: #FBEECE;
     border-radius: 20px;
-    height: 550px;
+    height: 535px;
     overflow: hidden;
     /* width: 100%; */
 }
@@ -298,7 +298,7 @@ header a{
 .four{
     background-color: #FBDA8A;
     border-radius: 20px;
-    height: 550px;
+    height: 535px;
     overflow: hidden;
     /* width: 100%; */
 }
@@ -808,7 +808,7 @@ header a{
     }
     .one, .two, .three, .four{
         /* width: 18.5rem; */
-        /* height: 360px; */
+        height: 360px;
         margin-bottom: -1rem;
     }
     .others{
@@ -968,16 +968,17 @@ header a{
         top: -1.5rem;
     }
     .sixth{
-        /* margin-left: -5rem; */
+        margin-left: 1rem;
+        width: 90%;
         margin-top: 0rem;
     }
     .sixth img{
         width: 14rem;
-        margin-left: -4rem;
+        /* margin-left: -4rem; */
     }
     .sixth h1{
         font-size: 21px;
-        margin-left: -6.7rem;
+        /* margin-left: -6.7rem; */
         width: 19rem;
         margin-bottom: -3rem;
     }
@@ -1126,7 +1127,7 @@ header a{
         display: flex;
         flex-direction: column;
         width: 75%;
-        height: 63.35rem;
+        height: 62.5rem;
         margin-left: 0.6rem;
         padding-left: 1rem;
         padding-top: 1.6rem;
@@ -1134,7 +1135,7 @@ header a{
     }
     .frame{
         position: relative;
-        margin-left: 18rem;
+        margin-left: 17rem;
         top: 25.65rem;
         width: 2.5rem;
     }
@@ -1147,11 +1148,11 @@ header a{
         width: 100%;
     }
     .left1 h1{
-        font-size: 36px;
-        width: 21rem;
+        font-size: 30px;
+        width: 120%;
     }
     .left1 p{
-        width: 21rem;
+        width: 120%;
         font-size: 15px;
     }
     .buttn2{
@@ -1163,11 +1164,11 @@ header a{
     .gem{
         top: -11rem;
         left: -0.6rem;
-        width: 17rem;
+        width: 16rem;
     }
     .giftcat{
-        left: 6rem;
-        width: 15rem;
+        left: 6.4rem;
+        width: 13.5rem;
     }
     .del{
         left: -2.2rem;
@@ -1177,12 +1178,12 @@ header a{
         display: flex;
         flex-direction: column;
         background: linear-gradient(to bottom, white, #f8d6e3);
-        width: 70%;
+        /* width: 70%; */
         height: 55rem;
     }
     .left2 img{
         width: 22rem;
-        margin: -110px;
+        margin: -3.8rem;
         margin-top: -2rem;
         margin-bottom: -2rem;
     }
@@ -1192,13 +1193,13 @@ header a{
     }
     .right2 h1{
         font-size: 22.5px;
-        width: 21.9rem;
+        /* width: 21.9rem; */
         margin-left: -2rem;
         padding-top: -10rem;
     }
     .right2 p{
         font-size: 14px;
-        width: 21.5rem;
+        width: 130%;
         margin-left: -2rem;
     }
     .btn5{
@@ -1208,10 +1209,10 @@ header a{
     }
     .sarah{
         position: relative;
-        left: 1px;
+        left: 0px;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        width: 19rem;
+        width: 17rem;
     }
     .third{
         padding: 0px;
@@ -1222,23 +1223,23 @@ header a{
         text-align: left;
         font-size: 22px;
         margin-left: 0px;
-        width: 21.6rem;
+        width: 100%;
         line-height: normal;
     }
     .here{
         text-align: left;
         font-size: 14px;
-        width: 21.6rem;
+        width: 100%;
         margin-bottom: -1rem;
     }
     .how{
         display: grid;
         grid-template-columns: auto;
     }
-    /* .one, .two, .three, .four{
-        width: 21.5rem;
+    .one, .two, .three, .four{
+        /* width: 21.5rem; */
         height: 380px;
-    } */
+    }
     .others{
         padding-left: 1.5rem;
     }
@@ -1326,19 +1327,20 @@ header a{
     .fourth h1{
         margin-left: -5.3rem;
         margin-bottom: -1.5rem;
+        width: 20rem;
         font-size: 24px;
         padding-bottom: 1rem;
     }
     .fourth p{
         margin-left: -5.3rem;
         font-size: 17px;
-        width: 21.5rem;
+        width: 20rem;
         margin-bottom: 3rem;
     }
     .perfect{
         margin-left: -5.3rem;
         margin-right: -7.5rem;
-        width: 21.6rem;
+        width: 20rem;
         gap: 10px;
     }
     .each{
@@ -1382,7 +1384,7 @@ header a{
     .bottom{
         padding: 0px;
         padding-top: 2rem;
-        width: 21.2rem;
+        /* width: 21.2rem; */
     }
     .bottom h1{
         font-size: 22px;
@@ -1396,18 +1398,19 @@ header a{
         top: -1.5rem;
     }
     .sixth{
-        /* margin-left: -5rem; */
+        margin-left: 1rem;
+        width: 90%;
         margin-top: 0rem;
     }
     .sixth img{
         width: 15rem;
-        margin-left: -2rem;
+        /* margin-left: -2rem; */
     }
     .sixth h1{
-        font-size: 24px;
-        margin-left: -6.5rem;
+        font-size: 20px;
+        /* margin-left: -6.5rem; */
         margin-bottom: -3rem;
-        width: 21.5rem;
+        width: 20rem;
     }
     .shift{
         display: flex;
@@ -1455,7 +1458,7 @@ header a{
     }
     .get{
         gap: 20px;
-        width: 19rem;
+        width: 17rem;
         margin-left: -0.7rem;
     }
     .google{
@@ -1471,24 +1474,27 @@ header a{
         margin-left: -2rem;
         height: 53rem;
     }
+    .forget{
+        height: 10rem;
+    }
     .boxi{
         position: relative;
         top: -8rem;
-        left: 15.5rem;
+        left: 15rem;
         width: 5rem;
     }
     .links{
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 2.5rem;
+        top: 1rem;
         margin-left: -2.8rem;
         margin-top: -7rem;
     }
     .newsletter{
         position: relative;
         top: -60rem;
-        width: 18.5rem;
+        width: 17rem;
         margin-left: -0.4rem;
     }
     .copyright{
@@ -2420,8 +2426,8 @@ header a{
     .main{
         display: flex;
         flex-direction: column;
-        width: 84.5%;
-        height: 64.1rem;
+        width: 73%;
+        height: 47.5rem;
         margin-left: 1.5rem;
         padding-left: 1rem;
         padding-top: 1.6rem;
@@ -2437,17 +2443,17 @@ header a{
         margin-top: -14.5rem;
         width: 70%;
         height: 88.4%;
-        margin-left: 7.3rem;
+        margin-left: 5.3rem;
     }
     .left1{
-        width: 100%;
+        width: 110%;
     }
     .left1 h1{
         font-size: 36px;
-        width: 29rem;
+        /* width: 29rem; */
     }
     .left1 p{
-        width: 28rem;
+        width: 100%;
         font-size: 15px;
     }
     .buttn2{
@@ -2460,10 +2466,12 @@ header a{
     .gem{
         top: -11rem;
         left: -0.6rem;
-        width: 20rem;
+        width: 15rem;
     }
     .giftcat{
-        left: 27.5rem;
+        left: 10rem;
+        top: -10rem;
+        width: 13rem;
     }
     .del{
         left: -2.4rem;
@@ -2473,19 +2481,19 @@ header a{
         display: flex;
         flex-direction: column;
         background: linear-gradient(to bottom, white, #f8d6e3);
-        width: 85.4%;
+        /* width: 85.4%; */
         height: 55rem;
     }
     .left2 img{
         width: 25rem;
-        margin: -110px;
-        margin-left: 3rem;
+        /* margin: -110px; */
+        margin-left: -1rem;
         margin-top: -2rem;
         margin-bottom: -2rem;
     }
     .right2{
         padding-left: 0px;
-        margin-left: 9rem;
+        /* margin-left: 9rem; */
         text-align: center;
     }
     .right2 h1{
@@ -2496,7 +2504,7 @@ header a{
     }
     .right2 p{
         font-size: 14px;
-        /* width: 26rem; */
+        width: 110%;
         margin-left: -2rem;
     }
     .btn5{
@@ -2519,7 +2527,7 @@ header a{
     .sending{
         text-align: center;
         font-size: 25px;
-        margin-left: 11rem;
+        /* margin-left: 11rem; */
         width: 24rem;
         line-height: normal;
     }
@@ -2528,7 +2536,7 @@ header a{
         font-size: 14px;
         width: 12rem;
         margin-bottom: -1rem;
-        margin-left: 18rem;
+        /* margin-left: 18rem; */
     }
     .how{
         display: grid;
@@ -2626,16 +2634,16 @@ header a{
         padding: 12px;
     }
     .fourth h1{
-        margin-left: 5rem;
+        margin-left: -5rem;
         margin-bottom: -1.5rem;
         font-size: 24px;
         padding-bottom: 1rem;
     }
     .fourth p{
         text-align: center;
-        margin-left: 5rem;
+        margin-left: -4rem;
         font-size: 18px;
-        width: 25rem;
+        width: 120%;
         margin-bottom: 3rem;
     }
     .perfect{
@@ -2669,7 +2677,7 @@ header a{
         margin-top: -2.5rem;
     }
     .btn6{
-        left: 12rem;
+        left: 1rem;
         margin-top: 1.5rem;
     }
     .fifth{
@@ -2697,16 +2705,17 @@ header a{
         top: -1.5rem;
     }
     .sixth{
-        /* margin-left: -5rem; */
+        margin-left: 1.5rem;
+        width: 90% ;
         margin-top: 0rem;
     }
     .sixth img{
         width: 17rem;
-        margin-left: 5.5rem;
+        /* margin-left: 5.5rem; */
     }
     .sixth h1{
         font-size: 24px;
-        margin-left: 5.5rem;
+        margin-left: 2rem;
         margin-bottom: -3rem;
         width: 23rem;
     }
@@ -2770,8 +2779,8 @@ header a{
         gap: 30px;
         flex-direction: column;
         margin-left: -2rem;
-        height: 20rem;
-        width: 43rem;
+        height: 50rem;
+        /* width: 43rem; */
     }
     /* .boxi{
         position: relative;
@@ -2783,14 +2792,14 @@ header a{
         display: flex;
         /* flex-direction: column; */
         position: relative;
-        top: 7.5rem;
-        /* margin-left: -2rem; */
+        top: 27rem;
+        margin-left: -2rem;
         margin-top: -7rem;
-        width: 35rem;
+        /* width: 35rem; */
     }
     .newsletter{
         position: relative;
-        /* top: -60rem; */
+        top: -10rem;
         /* width: 20rem; */
     }
     .copyright{
@@ -2800,46 +2809,116 @@ header a{
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px){
+   body{
+        max-height: 100%;
+        overflow-x: hidden;
+    }
     header{
-        width: 86.5%;
-        padding-left: 2rem;
+        padding: 0px;
+        margin: 0px;
+    }
+    .logoimg{
+        padding: 20px;
+        margin: 0px;
+    }
+    .nav-links {
+        display: none;
+        background: white;
+        position: fixed;
+        top: 4rem;
+        right: 0;
+        width: 50%;
+        height: 10vh;
+        line-height: 1.5;
+        padding: 10px;
+    }
+
+    /* .nav-links.active {
+        right: 0;
+    } */
+
+    .buttn-group{
+        display: block;
+        background-color: white;
+        padding: 10px;
+        margin-left: -0.6rem;
+    }
+    .buttn-group .btn1{
+        text-align: left;
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+    .hamburger{
+        display: flex;
+    }
+    /* Hamburger animation */
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px);
+    }
+    
+    .buttn{
+        display: none;
     }
     .main{
-        background-color: #FAF1E5;
+        display: flex;
+        flex-direction: column;
+        width: 84.5%;
+        height: 59.5rem;
         margin-left: 1.5rem;
-        padding: 20px;
-        width: 91.7%;
+        padding-left: 1rem;
+        padding-top: 1.6rem;
+        background-color: #FAF1E5;
+    }
+    .frame{
+        position: relative;
+        margin-left: 20rem;
+        top: 26rem;
+        width: 3.5rem;
     }
     .iphone{
-        height: 39.4rem;
+        margin-top: -14.5rem;
+        /* width: 70%;
+        height: 88.4%; */
+        margin-left: 7.3rem;
     }
     .left1{
-        width: 50%;
-    }
-    .left1 h1{
-        font-size: 42px;
-    }
-    .left1 p{
-        font-size: 18px;
         width: 100%;
     }
+    .left1 h1{
+        font-size: 36px;
+        width: 29rem;
+    }
+    .left1 p{
+        width: 28rem;
+        font-size: 15px;
+    }
+    .buttn2{
+        display: flex;
+        gap: 20px;
+        padding-top: 0px;
+        width: 90%;
+        margin-left: 1rem;
+    }
     .gem{
-        position: relative;
-        top: 3.3rem;
-        left: -2.5rem;
-        width: 17rem;
+        top: -11rem;
+        left: -0.6rem;
+        width: 20rem;
     }
     .giftcat{
-        position: relative;
-        left: 8.25rem;
+        left: 27.5rem;
     }
     .del{
-        position: relative;
-        top: -22rem;
-        left: -5rem;
+        left: -2.4rem;
+        top: -21.5rem;
     }
     .left2 img{
-        margin-left: -6rem;
+        margin-left: -4rem;
     }
     .second{
         gap: 100px;
@@ -2848,19 +2927,19 @@ header a{
         width: 50%;
     }
     .right2 h1{
-        font-size: 40px;
-        width: 110%;
+        font-size: 35px;
+        width: 100%;
     }
     .right2 P{
         font-size: 20px;
-        width: 110%;
+        width: 100%;
         margin-bottom: 3rem;
     }
     .sarah{
         position: relative;
         top: 0.5rem;
-        left: 7rem;
-        width: 19rem;
+        /* left: 7rem; */
+        width: 17rem;
     }
     /* .how{
         width: 86%;
@@ -3023,15 +3102,37 @@ header a{
     .main{
         background-color: #FAF1E5;
         padding: 10px;
+        /* padding: 10px; */
     }
     .right1{
-        width: 33%;
+        width: 40%;
+        text-align: right;
     }
     .left1{
         width: 50%;
     }
+    .left1 h1{
+        font-size: 44px;
+    }
+    .left1 p{
+        width: 100%;
+    }
+    .gem{
+        position: relative;
+        top: 3rem;
+        left: -13rem;
+        width: 15rem;
+    }
+    .del{
+        position: relative;
+        left: -15rem;
+        top: -20rem;
+        width: 12rem;
+    }
     .giftcat{
-        width: 13.8rem;
+        position: relative;
+        left: 0.6rem;
+        width: 13rem;
     }
     .frame{
         position: relative;
