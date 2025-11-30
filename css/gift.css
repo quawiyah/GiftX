@@ -1,5 +1,5 @@
 *{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin: 0;
 }
 body{
@@ -414,7 +414,7 @@ header a{
 }
 .top{
     height: 20vh;
-    background-image: url("/assets/images/Frame\ 34339.png");
+    background-image: url("/assets/images/Frame_34339.png");
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -511,7 +511,7 @@ header a{
     color: white;
 }
 .design{
-    background-image: url("/assets/images/Frame\ 34346.png");
+    background-image: url("/assets/images/Frame_34346.png");
     height: 20vh;
 }
 .down{
@@ -550,7 +550,7 @@ header a{
     background-color: #FAF1E5;
 }
 .zigzag{
-    background-image: url("/assets/images/Group\ 15.png");
+    background-image: url("/assets/images/Group_15.png");
     height: 3vh;
 }
 .footer{
@@ -3205,6 +3205,9 @@ header a{
     .second{
         gap: 100px;
     }
+    .left2 img{
+        margin-left: 4rem;
+    }
     .right2 h1{
         font-size: 44px;
     }
@@ -3213,15 +3216,20 @@ header a{
     }
     .sarah{
         position: relative;
-        top: 2rem;
+        top: 1rem;
+        left: 10rem;
+        width: 22rem;
+    }
+    .third{
+        margin: 0rem 6rem;
     }
     /* .how{
         width: 86%;
     } */
-    /* .one, .two, .three, .four{
-        width: 605px;
+    .one, .two, .three, .four{
+        /* width: 605px; */
         height: 480px;
-    } */
+    }
     .eventimg{
         margin-top: -0.5rem;
         width: 20rem;
@@ -3259,7 +3267,7 @@ header a{
         width: 10rem;
         position: relative;
         top: 1rem;
-        left: 7rem;
+        left: 5rem;
     }
     .browsegift{
         width: 13rem;
@@ -3289,8 +3297,12 @@ header a{
     .app{
         width: 10rem;
     }
+    .fourth{
+        margin-right: 0px;
+    }
     .perfect{
         margin-top: 3rem;
+        width: 100%;
     }
     .shift{
         /* width: 80rem; */
