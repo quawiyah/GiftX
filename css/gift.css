@@ -511,7 +511,7 @@ header a{
     color: white;
 }
 .design{
-    background-image: url("/assets/images/Frame_34346.png");
+    background-image: url("../assets/images/Frame_34346.png");
     height: 20vh;
 }
 .down{
@@ -550,7 +550,7 @@ header a{
     background-color: #FAF1E5;
 }
 .zigzag{
-    background-image: url("/assets/images/Group_15.png");
+    background-image: url("../assets/images/Group_15.png");
     height: 3vh;
 }
 .footer{
