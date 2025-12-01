@@ -3220,9 +3220,12 @@ header a{
     .right2 p{
         width: 100%;
     }
+    .btn5{
+        margin-top: 1rem;
+    }
     .sarah{
         position: relative;
-        top: 1rem;
+        top: 0rem;
         left: 10rem;
         width: 22rem;
     }
@@ -3253,16 +3256,16 @@ header a{
     }
     .voicemessage{
         position: relative;
-        margin-left: -1.2rem;
+        margin-left: -3.2rem;
         top: 3rem;
-        width: 26.9rem;
+        width: 25rem;
         height: 11rem;
     }
     .gift{
         width: 15rem;
         position: relative;
         top: -8rem;
-        left: 16rem;
+        left: 12rem;
     }
     .notsure{
         position: relative;
@@ -3272,7 +3275,7 @@ header a{
     .browse{
         width: 10rem;
         position: relative;
-        top: 1rem;
+        top: 0rem;
         left: 5rem;
     }
     .browsegift{
