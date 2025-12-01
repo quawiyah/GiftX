@@ -324,7 +324,7 @@ header a{
     padding: 10px;
     display: flex;
     gap: 10px;
-    width: 140px;
+    /* width: 140px; */
 }
 .app h4{
     font-size: 16px;
@@ -410,7 +410,7 @@ header a{
 }
 
 .fifth{
-    margin: 100px 99.5px;
+    margin: 170px 99.5px;
     /* padding: 2px 56px 0px 56px; */
     border-radius: 20px;
     background-color: white;
@@ -533,20 +533,23 @@ header a{
 .google{
     background-color: white;
     color: #242424;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 10px;
     display: flex;
     gap: 10px;
-    width: 140px;
+    /* width: 170px; */
     text-align: left;
-    margin: auto;
+    /* margin-left: 3rem; */
+}
+.google img{
+    margin-top: 0.5rem;
 }
 .google h4{
-    font-size: 16px;
+    font-size: 20px;
 }
 .get{
     display: flex;
-    gap: 0px;
+    gap: 15px;
     /* justify-content: center; */
     padding: 30px;
 }
@@ -3345,9 +3348,9 @@ header a{
         width: 25.5rem;
         margin-left: 4rem;
     }
-    .google{
+    /* .google{
         width: 10rem;
-    }
+    } */
     /* .links{
         width: 25rem;
     } */
