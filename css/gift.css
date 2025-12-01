@@ -1,5 +1,5 @@
 *{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin: 0;
 }
 body{
@@ -182,7 +182,7 @@ header a{
 .sarah{
     position: relative;
     margin-left: 5%;
-    /* left: 270px; */
+    left: 15rem;
 }
 
 .third{
@@ -329,6 +329,10 @@ header a{
 .app h4{
     font-size: 16px;
 }
+.app i, .app img{
+    position: relative;
+    top: 0.5rem;
+}
 
 .fourth{
     margin: 0px 44px;
@@ -348,9 +352,10 @@ header a{
 }
 .perfect img{
     height: 313.12px;
-    width: 313.12px;
+    width: 286px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    object-fit: cover;
 }
 .each{
     border-radius: 10px;
@@ -2049,7 +2054,7 @@ header a{
         height: 55rem;
     }
     .left2 img{
-        width: 24.5rem;
+        width: 24rem;
         margin: -30px;
         margin-top: -2rem;
         margin-bottom: -2rem;
@@ -3165,8 +3170,8 @@ header a{
     } */
     .main{
         background-color: #FAF1E5;
-        padding: 10px;
-        height: 39.2rem;
+        padding: 30px;
+        height: 38rem;
         /* padding: 10px; */
     }
     .right1{
@@ -3196,7 +3201,7 @@ header a{
     }
     .giftcat{
         position: relative;
-        left: 0.6rem;
+        left: 2rem;
         width: 13rem;
     }
     .frame{
