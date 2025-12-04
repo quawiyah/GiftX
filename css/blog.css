@@ -302,6 +302,9 @@ header a{
     .each input{
         display: none;
     }
+    .search{
+        display: none;
+    }
     .each{
         display: flex;
         flex-direction: column;
@@ -448,6 +451,9 @@ header a{
         margin: 20px;
     }
     .each input{
+        display: none;
+    }
+    .search{
         display: none;
     }
     .each{
@@ -598,6 +604,9 @@ header a{
     .each input{
         display: none;
     }
+    .search{
+        display: none;
+    }
     .each{
         display: flex;
         flex-direction: column;
@@ -746,6 +755,9 @@ header a{
         margin: 40px;
     }
     .each input{
+        display: none;
+    }
+    .search{
         display: none;
     }
     .each{
