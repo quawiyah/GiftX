@@ -1,0 +1,838 @@
+body{
+    color: #242424;
+    font-family: "IBM Plex Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    margin: 30px 70px;
+    font-size: 18px;
+    background-color: #FFFFFFA3;
+    border-radius: 30px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+li{
+    list-style: none;
+}
+header a{
+    color: black;
+    text-decoration: none;
+}
+.buttn-group{
+    display: none;
+}
+
+.buttn{
+    display: flex;
+    gap: 20px;
+}
+.btn1{
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn2{
+    border-radius: 30px;
+    width: 167px;
+    height: 49px;
+    border: none;
+    color: white;
+    background-color: #E73C7E;
+    border-bottom: 4px solid black;
+    cursor: pointer;
+}
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    margin-top: 5px;
+    margin-right: 20px;
+    background-color: #F3F3F3;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.hamburger span {
+    width: 28px;
+    height: 3px;
+    background: #242424;
+    transition: 0.3s ease;
+}
+
+.first{
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 40px 0px 40px;
+    background-color: #FAF1E5;
+    border-radius: 20px;
+}
+.first h1{
+    font-size: 55px;
+    font-weight: 700;
+    color: #562442;
+}
+.first p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.second{
+    margin: 50px 100px;
+}
+.each{
+    display: flex;
+    justify-content: space-between;
+    gap: 230px;
+}
+.each img{
+    width: 378px;
+    height: 223px;
+    margin-top: 1rem;
+}
+.each h1{
+    color: #562442;
+    font-size: 35px;
+    font-weight: 600;
+}
+.each input{
+    padding: 12px;
+    width: 295px;
+    height: 49px;
+    background-color: #F3F3F3;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    margin-top: 1.5rem;
+}
+.each h6{
+    color: #5E5E5E;
+    font-size: 14px;
+    font-weight: 400;
+}
+.each h2{
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: -1rem;
+    margin-top: -2rem;
+}
+.each p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.each h5{
+    color: #5E5E5E;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: -0.5rem;
+}
+.search i{
+    position: relative;
+    left: -30px;
+}
+.btn{
+    display: block;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 16px;
+    background-color: #E73C7E;
+    color: white;
+    border: none;
+    border-bottom: 4px solid #242424;
+    border-radius: 30px;
+    /* width: 158px; */
+    padding: 14px 40px;
+}
+
+.eight{
+    background-color: #FAF1E5;
+}
+.zigzag{
+    background-image: url("../assets/images/Group_15.png");
+    height: 3vh;
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* gap: 200px; */
+    /* margin: 0px 44px; */
+    padding: 50px 0px 40px 90px;
+}
+.footer i{
+    padding-right: 5px;
+}
+.footer h5{
+    font-size: 18px;
+    font-weight: 700;
+}
+.social{
+    width: 150px;
+}
+.links{
+    display: flex;
+    gap: 40px;
+}
+.links a{
+    text-decoration: none;
+    color: #242424;
+}
+.newsletter{
+    padding: 20px;
+    border-radius: 10px;
+    width: 309px;
+    height: 223px;
+    background-color: white;
+}
+.newsletter input{
+    background-color: #F3F3F3;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-connect{
+    width: 167px;
+    height: 49px;
+    border: none;
+    border-bottom: 4px solid #242424;
+    border-radius: 30px;
+    color: white;
+    background-color: #E73C7E;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.copyright{
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    color: #242424;
+}
+
+@media only screen and (max-width: 320px){
+    .logoimg{
+        padding: 0px;
+        margin: 0px;
+    }
+    header{
+        width: 90%;
+        padding: 15px;
+        margin: 0px;
+        background-color: #FFFFFFA3;
+        border-radius: 30px;
+    }
+    .nav-links {
+        display: none;
+        background: white;
+        position: fixed;
+        top: 4rem;
+        right: 0;
+        width: 50%;
+        height: 10vh;
+        line-height: 1.5;
+        padding: 10px;
+    }
+
+    .buttn-group{
+        display: block;
+        background-color: white;
+        padding: 10px;
+        margin-left: -0.6rem;
+    }
+    .buttn-group .btn1{
+        text-align: left;
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+    .hamburger{
+        display: flex;
+        margin-right: 1rem;
+    }
+    /* Hamburger animation */
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px);
+    }
+    
+    .buttn{
+        display: none;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        margin: 50px 15px;
+        padding: 70px 15px 0px 15px;
+    }
+    .first h1{
+        font-size: 27px;
+        font-weight: 700;
+    }
+    .first p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .first img{
+        width: 100%;
+        height: auto;
+    }
+    .right{
+        margin-bottom: 6rem;
+    }
+    .second{
+        margin: 15px;
+    }
+    .each input{
+        display: none;
+    }
+    .each{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .each img{
+        width: 100%;
+        height: auto;
+    }
+    .each h2{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .each p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .left1{
+        order: 2;
+    }
+    .right1{
+        order: 1;
+    }
+    .btn{
+        padding: 8px 20px;
+        width: 158px;
+        font-size: 14px;
+    }
+    .eight{
+        background-color: #FAF1E5;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin-left: -2rem;
+        height: 56rem;
+    }
+    .forget{
+        height: 12rem;
+        margin-left: -2rem;
+    }
+    .boxi{
+        position: relative;
+        top: -13rem;
+        left: 11rem;
+        width: 5rem;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        position: relative;
+        top: 18rem;
+        margin-left: -4rem;
+        margin-top: -8rem;
+    }
+    .newsletter{
+        position: relative;
+        top: -30rem;
+        width: 15rem;
+        margin-left: -2rem;
+
+    }
+    .copyright{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px){
+    .logoimg{
+        padding: 0px;
+        margin: 0px;
+    }
+    header{
+        width: 90%;
+        padding: 15px;
+        margin: 0px;
+        background-color: #FFFFFFA3;
+        border-radius: 30px;
+    }
+    .nav-links {
+        display: none;
+        background: white;
+        position: fixed;
+        top: 4rem;
+        right: 0;
+        width: 50%;
+        height: 10vh;
+        line-height: 1.5;
+        padding: 10px;
+    }
+
+    .buttn-group{
+        display: block;
+        background-color: white;
+        padding: 10px;
+        margin-left: -0.6rem;
+    }
+    .buttn-group .btn1{
+        text-align: left;
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+    .hamburger{
+        display: flex;
+        margin-right: 1rem;
+    }
+    /* Hamburger animation */
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px);
+    }
+    
+    .buttn{
+        display: none;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        margin: 50px 20px;
+        padding: 70px 15px 0px 15px;
+    }
+    .first h1{
+        font-size: 27px;
+        font-weight: 700;
+    }
+    .first p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .first img{
+        width: 100%;
+        height: auto;
+    }
+    .right{
+        margin-bottom: 6rem;
+    }
+    .second{
+        margin: 20px;
+    }
+    .each input{
+        display: none;
+    }
+    .each{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .each img{
+        width: 100%;
+        height: auto;
+    }
+    .each h2{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .each p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .left1{
+        order: 2;
+    }
+    .right1{
+        order: 1;
+    }
+    .btn{
+        padding: 8px 20px;
+        width: 158px;
+        font-size: 14px;
+    }
+    .eight{
+        background-color: #FAF1E5;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin-left: -2rem;
+        height: 56rem;
+    }
+    .forget{
+        height: 12rem;
+        margin-left: -2rem;
+    }
+    .boxi{
+        position: relative;
+        top: -13rem;
+        left: 14rem;
+        width: 5rem;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        position: relative;
+        top: 18rem;
+        margin-left: -4rem;
+        margin-top: -8rem;
+    }
+    .newsletter{
+        position: relative;
+        top: -30rem;
+        width: 18rem;
+        margin-left: -2rem;
+
+    }
+    .copyright{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px){
+    .logoimg{
+        padding: 0px;
+        margin: 0px;
+    }
+    header{
+        width: 90%;
+        padding: 15px;
+        margin: 0px 10px;
+        background-color: #FFFFFFA3;
+        border-radius: 30px;
+    }
+    .nav-links {
+        display: none;
+        background: white;
+        position: fixed;
+        top: 4rem;
+        right: 0;
+        width: 50%;
+        height: 10vh;
+        line-height: 1.5;
+        padding: 10px;
+    }
+
+    .buttn-group{
+        display: block;
+        background-color: white;
+        padding: 10px;
+        margin-left: -0.6rem;
+    }
+    .buttn-group .btn1{
+        text-align: left;
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+    .hamburger{
+        display: flex;
+        margin-right: 1rem;
+    }
+    /* Hamburger animation */
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px);
+    }
+    
+    .buttn{
+        display: none;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        margin: 50px 30px;
+        padding: 70px 15px 0px 15px;
+    }
+    .first h1{
+        font-size: 27px;
+        font-weight: 700;
+    }
+    .first p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .first img{
+        width: 100%;
+        height: 320px;
+    }
+    .right{
+        margin-bottom: 6rem;
+    }
+    .second{
+        margin: 30px;
+    }
+    .each input{
+        display: none;
+    }
+    .each{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .each img{
+        width: 100%;
+    }
+    .each h2{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .each p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .left1{
+        order: 2;
+    }
+    .right1{
+        order: 1;
+    }
+    .btn{
+        padding: 8px 20px;
+        width: 158px;
+        font-size: 14px;
+    }
+    .eight{
+        background-color: #FAF1E5;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin-left: -2rem;
+        height: 56rem;
+    }
+    .forget{
+        height: 12rem;
+        margin-left: -2rem;
+    }
+    .boxi{
+        position: relative;
+        top: -13rem;
+        left: 15rem;
+        width: 5rem;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        position: relative;
+        top: 18rem;
+        margin-left: -4rem;
+        margin-top: -8rem;
+    }
+    .newsletter{
+        position: relative;
+        top: -30rem;
+        width: 18rem;
+        margin-left: -2rem;
+
+    }
+    .copyright{
+        font-size: 13px;
+    }
+} 
+
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    .logoimg{
+        padding: 0px;
+        margin: 0px;
+    }
+    header{
+        width: 90%;
+        padding: 15px;
+        margin: 0px 30px;
+        background-color: #FFFFFFA3;
+        border-radius: 30px;
+    }
+    .nav-links {
+        display: none;
+        background: white;
+        position: fixed;
+        top: 4rem;
+        right: 0;
+        width: 50%;
+        height: 10vh;
+        line-height: 1.5;
+        padding: 10px;
+    }
+
+    .buttn-group{
+        display: block;
+        background-color: white;
+        padding: 10px;
+        margin-left: -0.6rem;
+    }
+    .buttn-group .btn1{
+        text-align: left;
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+    .hamburger{
+        display: flex;
+        margin-right: 1rem;
+    }
+    /* Hamburger animation */
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px);
+    }
+    
+    .buttn{
+        display: none;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        margin: 50px 40px;
+        padding: 70px 35px 0px 35px;
+    }
+    .first h1{
+        font-size: 27px;
+        font-weight: 700;
+    }
+    .first p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .first img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 320px;
+        height: 320px;
+    }
+    .right{
+        margin-bottom: 6rem;
+    }
+    .second{
+        margin: 40px;
+    }
+    .each input{
+        display: none;
+    }
+    .each{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .each img{
+        width: 100%;
+        height: auto;
+    }
+    .each h2{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .each p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .left1{
+        order: 2;
+    }
+    .right1{
+        order: 1;
+    }
+    .btn{
+        padding: 8px 20px;
+        width: 158px;
+        font-size: 14px;
+    }
+    .eight{
+        background-color: #FAF1E5;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin-left: -2rem;
+        height: 56rem;
+    }
+    .forget{
+        height: 12rem;
+        margin-left: -2rem;
+    }
+    .boxi{
+        position: relative;
+        top: -13rem;
+        left: 15rem;
+        width: 5rem;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        position: relative;
+        top: 18rem;
+        margin-left: -4rem;
+        margin-top: -8rem;
+    }
+    .newsletter{
+        position: relative;
+        top: -30rem;
+        width: 18rem;
+        margin-left: -2rem;
+
+    }
+    .copyright{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    header{
+        margin: 0px 40px;
+    }
+    .first{
+        margin: 50px;
+    }
+    .first h1{
+        font-size: 45px;
+    }
+    .first img{
+        width: 110%;
+    }
+    .second{
+        margin: 50px;
+    }
+    .each{
+        gap: 100px;
+    }
+}

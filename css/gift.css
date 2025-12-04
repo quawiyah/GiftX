@@ -593,6 +593,10 @@ header a{
     display: flex;
     gap: 40px;
 }
+.links a{
+    text-decoration: none;
+    color: #242424;
+}
 .newsletter{
     padding: 20px;
     border-radius: 10px;
@@ -1532,7 +1536,7 @@ header a{
   outline: 1px solid red;
 } */
     body{
-        max-height: 100%;
+        /* max-height: 100%; */
         overflow-x: hidden;
     }
     header{
@@ -1965,7 +1969,7 @@ header a{
     }
 } 
 
-@media only screen and (min-width: 414px) and (max-width: 414px){
+@media only screen and (min-width: 413px) and (max-width: 413px){
     body{
         max-height: 100%;
         overflow-x: hidden;
@@ -2023,7 +2027,7 @@ header a{
         display: flex;
         flex-direction: column;
         width: 74%;
-        height: 49.6rem;
+        height: 48.4rem;
         margin-left: 1rem;
         margin-left: 1rem;
         padding-left: 1rem;
@@ -2039,7 +2043,7 @@ header a{
     .frame{
         position: relative;
         margin-left: 19.2rem;
-        top: 26rem;
+        top: 14rem;
         width: 3.1rem;
     }
     .iphone{
@@ -2112,10 +2116,10 @@ header a{
     }
     .sarah{
         position: relative;
-        left: 1px;
+        left: -2rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        width: 20rem;
+        width: 17rem;
     }
     .third{
         padding: 0px;

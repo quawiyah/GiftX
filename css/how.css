@@ -56,8 +56,11 @@ header a{
     flex-direction: column;
     cursor: pointer;
     gap: 5px;
-    margin-top: 15px;
+    margin-top: 5px;
     margin-right: 20px;
+    background-color: #F3F3F3;
+    border-radius: 50%;
+    padding: 10px;
 }
 
 .hamburger span {
@@ -317,6 +320,10 @@ header a{
 .links{
     display: flex;
     gap: 40px;
+}
+.links a{
+    text-decoration: none;
+    color: #242424;
 }
 .newsletter{
     padding: 20px;
@@ -1073,6 +1080,9 @@ header a{
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px){
+    .first{
+        padding: 40px;
+    }
     .gift{
         width: auto;
     }
@@ -1089,10 +1099,22 @@ header a{
         padding: 30px;
     }
     .others{
-        gap: 50px;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .third{
+        padding: 20px 55px;
+    }
+    .oneone{
+        height: auto;
+        width: auto;
     }
     .onetwo{
-        width: 300px;
+        width: auto;
+    }
+    .television, .flower{
+        margin-top: 0px;
+        margin-bottom: 4rem;
     }
 }
 
