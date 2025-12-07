@@ -6,14 +6,19 @@ body{
     font-family: "IBM Plex Sans", sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #FBD7E4;
 }
 header{
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
     font-size: 18px;
+    z-index: 999;
     background-color: #FFFFFFA3;
     border-radius: 30px;
+    margin: 20px 100px 0px 100px;
 }
 header ul{
     display: flex;
@@ -135,10 +140,12 @@ header a{
     width: 290px;
     height: 255px;
 }
-
+.how{
+    background-color: white;
+    padding: 80px 0px;
+}
 .second{
     background-color: #FBEECE;
-    margin: 80px 100px;
     padding: 30px;
     display: flex;
     justify-content: space-between;
@@ -295,6 +302,7 @@ header a{
 
 .eight{
     background-color: #FAF1E5;
+    margin-bottom: -1rem;
 }
 .zigzag{
     background-image: url("../assets/images/Group_15.png");
@@ -498,6 +506,9 @@ header a{
         margin-top: 0px;
         margin-bottom: 4rem;
     }
+    .door{
+        height: 9rem;
+    }
     .eight{
         background-color: #FAF1E5;
     }
@@ -538,14 +549,14 @@ header a{
     }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 374px){
+@media only screen and (min-width: 321px) and (max-width: 375px){
     .logoimg{
         padding: 0px;
         margin: 0px;
     }
     header{
         width: 90%;
-        padding: 15px;
+        padding: 10px;
         margin: 0px;
         background-color: #FFFFFFA3;
         border-radius: 30px;
@@ -608,6 +619,7 @@ header a{
     }
     .left1 h6{
         font-size: 14px;
+        margin-bottom: -0.5rem;
     }
     .left1 p{
         font-size: 14px;
@@ -676,6 +688,9 @@ header a{
     .television, .flower{
         margin-top: 0px;
         margin-bottom: 4rem;
+    }
+    .door{
+        height: 12.1rem;
     }
     .eight{
         background-color: #FAF1E5;
@@ -725,7 +740,7 @@ header a{
     header{
         width: 90%;
         padding: 15px;
-        margin: 0px;
+        margin: 10px 5px 0px 5px;
         background-color: #FFFFFFA3;
         border-radius: 30px;
     }
@@ -787,6 +802,7 @@ header a{
     }
     .left1 h6{
         font-size: 14px;
+        margin-bottom: -1rem;
     }
     .left1 p{
         font-size: 14px;
@@ -856,6 +872,12 @@ header a{
         margin-top: 0px;
         margin-bottom: 4rem;
     }
+    .door{
+        height: 12.2rem;
+    }
+    .giftcard{
+        height: 11.1rem;
+    }
     .eight{
         background-color: #FAF1E5;
     }
@@ -904,7 +926,8 @@ header a{
     header{
         width: 90%;
         padding: 15px;
-        margin: 0px;
+        margin-left: 20px;
+        /* margin: 0px; */
         background-color: #FFFFFFA3;
         border-radius: 30px;
     }
@@ -970,6 +993,7 @@ header a{
     }
     .left1 h6{
         font-size: 14px;
+        margin-bottom: -1rem;
     }
     .left1 p{
         font-size: 14px;
@@ -978,16 +1002,20 @@ header a{
         order: 1; 
     } 
     .balloon{
-        width: 180px;
-        height: 180px;
+        width: 190px;
+        height: 190px;
     }
     .alone img{
-        width: 160px;
-        height: 150px;
+        width: 170px;
+        height: 160px;
+    }
+    .how{
+        padding-left: 50px;
+        padding-right: 50px;
     }
     .second {
         flex-direction: column; 
-        margin: 25px;
+        /* margin: 25px; */
         padding: 20px 15px;
     }
     .gift { 
@@ -1026,7 +1054,7 @@ header a{
         gap: 0px;
     }
     .third{
-        padding: 20px 25px;
+        padding: 20px 50px;
     }
     .oneone{
         height: auto;
@@ -1080,6 +1108,9 @@ header a{
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px){
+    header{
+        margin: 20px 40px;
+    }
     .first{
         padding: 40px;
     }

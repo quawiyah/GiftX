@@ -5,11 +5,14 @@ body{
     padding: 0;
 }
 header{
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     padding: 10px 40px;
     margin: 30px 70px;
     font-size: 18px;
+    z-index: 999;
     background-color: #FFFFFFA3;
     border-radius: 30px;
 }
