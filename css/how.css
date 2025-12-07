@@ -142,10 +142,11 @@ header a{
 }
 .how{
     background-color: white;
-    padding: 80px 0px;
+    padding: 80px 100px;
 }
 .second{
     background-color: #FBEECE;
+    /* margin: 80px 100px; */
     padding: 30px;
     display: flex;
     justify-content: space-between;
@@ -452,9 +453,11 @@ header a{
         width: 160px;
         height: 150px;
     }
+    .how{
+        padding: 80px 20px;
+    }
     .second {
         flex-direction: column; 
-        margin: 25px;
         padding: 20px 15px;
     }
     .gift { 
@@ -557,7 +560,7 @@ header a{
     header{
         width: 90%;
         padding: 10px;
-        margin: 0px;
+        margin: 10px;
         background-color: #FFFFFFA3;
         border-radius: 30px;
     }
@@ -635,9 +638,11 @@ header a{
         width: 160px;
         height: 150px;
     }
+    .how{
+        padding: 80px 25px;
+    }
     .second {
         flex-direction: column; 
-        margin: 25px;
         padding: 20px 15px;
     }
     .gift { 
@@ -818,9 +823,11 @@ header a{
         width: 160px;
         height: 150px;
     }
+    .how{
+        padding: 80px 25px;
+    }
     .second {
         flex-direction: column; 
-        margin: 25px;
         padding: 20px 15px;
     }
     .gift { 
@@ -1016,7 +1023,7 @@ header a{
     .second {
         flex-direction: column; 
         /* margin: 25px; */
-        padding: 20px 15px;
+        padding: 20px 25px;
     }
     .gift { 
         order: 2; 
@@ -1123,8 +1130,11 @@ header a{
         margin: 0px;
         margin-top: 50px;
     }
+    .how{
+        padding: 80px 60px;
+    }
     .second{
-        margin: 30px;
+        gap: 40px;
     }
     .third{
         padding: 30px;
@@ -1275,10 +1285,13 @@ header a{
     width: 290px;
     height: 255px;
 }
-
+/* .how{
+    background-color: white;
+    padding: 80px 100px;
+} */
 .second{
     background-color: #FBEECE;
-    margin: 80px 100px;
+    /* margin: 80px 100px; */
     padding: 30px;
     display: flex;
     justify-content: space-between;

@@ -1,5 +1,5 @@
 *{
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     margin: 0;
 }
 body{
@@ -1535,9 +1535,6 @@ header a{
 }
 
 @media only screen and (min-width: 376px) and (max-width: 425px){
-    /* * {
-  outline: 1px solid red;
-} */
     body{
         /* max-height: 100%; */
         overflow-x: hidden;
@@ -2976,9 +2973,9 @@ header a{
     }
     .main{
         display: flex;
-        flex-direction: column;
-        width: 84.5%;
-        height: 59.9rem;
+        /* flex-direction: column; */
+        width: 88%;
+        /* height: 59.9rem; */
         margin-left: 1.5rem;
         padding-left: 1rem;
         padding-top: 1.6rem;
@@ -2986,15 +2983,12 @@ header a{
     }
     .frame{
         position: relative;
-        margin-left: 31rem;
-        top: 26rem;
+        left: 56rem;
+        top: 2rem;
         width: 3.5rem;
     }
     .iphone{
-        margin-top: -14.5rem;
-        /* width: 70%;
-        height: 88.4%; */
-        margin-left: 7.3rem;
+        margin-left: -1rem;
     }
     .left1{
         width: 100%;
@@ -3006,31 +3000,32 @@ header a{
     .left1 p{
         width: 28rem;
         font-size: 15px;
+        margin-bottom: 2rem;
     }
     .buttn2{
         display: flex;
         gap: 20px;
         padding-top: 0px;
         width: 90%;
-        margin-left: 1rem;
     }
     .gem{
-        top: -11rem;
-        left: -0.6rem;
+        /* top: -11rem; */
+        left: -3.6rem;
         width: 20rem;
     }
     .giftcat{
-        left: 20.5rem;
+        width: 15rem;
+        left: 11rem;
     }
     .del{
-        left: -2.4rem;
+        left: -4.4rem;
         top: -21.5rem;
     }
     .left2 img{
         margin-left: -4rem;
     }
     .second{
-        gap: 100px;
+        gap: 10px;
     }
     .right2{
         width: 50%;
