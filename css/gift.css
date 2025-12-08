@@ -57,13 +57,20 @@ header a{
     flex-direction: column;
     cursor: pointer;
     gap: 5px;
-    margin-top: 35px;
+    margin-top: 15px;
+    margin-bottom: 1.5rem;
     margin-right: 20px;
+    background-color: #F3F3F3;
+    border-radius: 50%;
+    padding: 12px;
 }
 
 .hamburger span {
+    display: block;
     width: 28px;
     height: 3px;
+    margin-top: auto;
+    margin-bottom: auto;
     background: #242424;
     transition: 0.3s ease;
 }
@@ -1192,7 +1199,10 @@ header a{
         display: flex;
         gap: 20px;
         padding-top: 20px;
-        width: 90%;
+        width: 100%;
+    }
+    .btn3, .btn4{
+        padding: 0.5rem 1.6rem;
     }
     .gem{
         top: -11rem;
@@ -1635,7 +1645,12 @@ header a{
         display: flex;
         gap: 20px;
         padding-top: 20px;
-        width: 90%;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .btn3, .btn4{
+        padding: 0.5rem 2rem;
     }
     .gem{
         top: -11rem;
@@ -1690,7 +1705,7 @@ header a{
         left: -5rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        width: 20rem;
+        width: 16rem;
     }
     .third{
         padding: 0px;
@@ -1969,7 +1984,7 @@ header a{
     }
 } 
 
-@media only screen and (min-width: 413px) and (max-width: 413px){
+@media only screen and (min-width: 414px) and (max-width: 414px){
     body{
         max-height: 100%;
         overflow-x: hidden;
@@ -2066,7 +2081,10 @@ header a{
         display: flex;
         gap: 20px;
         padding-top: 20px;
-        width: 90%;
+        width: 100%;
+    }
+    .btn3, .btn4{
+        padding: 0.5rem 2rem;
     }
     .gem{
         top: -11rem;
@@ -2116,10 +2134,10 @@ header a{
     }
     .sarah{
         position: relative;
-        left: -2rem;
+        left: -4rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        width: 17rem;
+        width: 16rem;
     }
     .third{
         padding: 0px;
